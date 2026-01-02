@@ -96,12 +96,37 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btns{
-    display: flexbox;
+.pry_btn{
+    background-color: #059669;
+    color: #ffffff;
+    margin-right: 15px;
+    border: 2px solid #059669;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: cursive;
+    transition: all 0.3s ease;
 }
 
-button {
-
+.pry_btn:hover{
+    background-color: #057652;
+    border: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
 
+.sdy_btn{
+    display: inline-block;
+    border: 2px solid #059669;
+    text-decoration: none;
+    padding: 12px 12px;  
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.3 ease;
+
+}
